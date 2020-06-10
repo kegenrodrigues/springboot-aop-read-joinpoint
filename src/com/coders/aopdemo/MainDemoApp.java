@@ -21,6 +21,8 @@ public class MainDemoApp {
 		Account theAccount =  new Account();
 		
 		// call the method on the bean
+		theAccount.setName("Saygin");
+		theAccount.setLevel("Platinum");
 		theAccountDAO.addAccount(theAccount,true);
 		theAccountDAO.addDoWork();
 		
